@@ -1,0 +1,137 @@
+{
+  "formato": "atiks-pos",
+  "version": 1,
+  "tipo": "datos-base",
+  "configuracion": {
+    "puntos_de_venta": {
+      "mesas": "M1..M20",
+      "barra": "B1..B4",
+      "para_llevar": "D (una sola cuenta abierta)"
+    },
+    "medios_de_pago": [
+      "efectivo",
+      "nequi",
+      "llave (Bre-B)",
+      "bancolombia (Transferencia Bancolombia)"
+    ],
+    "categorias_gasto": [
+      "nomina",
+      "comision"
+    ],
+    "moneda": "COP",
+    "zona_horaria": "America/Bogota",
+    "nota": "Esta sección es informativa: hoy estos valores están fijos en el código de la app y la importación la ignora."
+  },
+  "colecciones": {
+    "products": {
+      "bebida-americano-prensa": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:00.000Z",
+        "name": "Americano en prensa francesa",
+        "price": 6000
+      },
+      "bebida-aromaticas": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:08.000Z",
+        "name": "Aromáticas",
+        "price": 6000
+      },
+      "bebida-cacao": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:07.000Z",
+        "name": "Cacao",
+        "price": 8000
+      },
+      "bebida-cafe-frio": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:06.000Z",
+        "name": "Café frío",
+        "price": 10000
+      },
+      "bebida-cafe-vainilla": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:05.000Z",
+        "name": "Café vainilla",
+        "price": 10000
+      },
+      "bebida-capuccino": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:01.000Z",
+        "name": "Capuccino",
+        "price": 8000
+      },
+      "bebida-frappe-moka": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:04.000Z",
+        "name": "Frappe moka",
+        "price": 10000
+      },
+      "bebida-latte-caramelo": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:03.000Z",
+        "name": "Latte caramelo",
+        "price": 10000
+      },
+      "bebida-latte": {
+        "active": true,
+        "category": "Bebidas",
+        "createdAt": "2026-10-29T23:30:02.000Z",
+        "name": "Latte",
+        "price": 8000
+      },
+      "postre-limon": {
+        "active": true,
+        "category": "Postres",
+        "createdAt": "2026-10-29T23:30:13.000Z",
+        "name": "Postre de limón",
+        "price": 9000
+      },
+      "postre-maracuya": {
+        "active": true,
+        "category": "Postres",
+        "createdAt": "2026-10-29T23:30:14.000Z",
+        "name": "Postre de maracuyá",
+        "price": 9000
+      },
+      "torta-almojabana": {
+        "active": true,
+        "category": "Tortas",
+        "createdAt": "2026-10-29T23:30:09.000Z",
+        "name": "Torta de almojábana",
+        "price": 13000
+      },
+      "torta-chocolate": {
+        "active": true,
+        "category": "Tortas",
+        "createdAt": "2026-10-29T23:30:11.000Z",
+        "name": "Torta de chocolate",
+        "price": 13000
+      },
+      "torta-manzana": {
+        "active": true,
+        "category": "Tortas",
+        "createdAt": "2026-10-29T23:30:12.000Z",
+        "name": "Torta de manzana",
+        "price": 13000
+      },
+      "torta-zanahoria": {
+        "active": true,
+        "category": "Tortas",
+        "createdAt": "2026-10-29T23:30:10.000Z",
+        "name": "Torta de zanahoria",
+        "price": 13000
+      }
+    },
+    "orders": {},
+    "purchases": {},
+    "expenses": {}
+  }
+}

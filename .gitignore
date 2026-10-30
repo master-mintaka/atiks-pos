@@ -1,0 +1,16 @@
+# Respaldos con ventas y compras reales: nunca deben subirse a un repositorio público.
+# Real sales/purchases backups: never push them to a public repository.
+Atiks-POS-respaldo-*.json
+*.respaldo.json
+Atiks-POS-ventas-*.csv
+Atiks-POS-compras-*.csv
+Atiks-POS-gastos-*.csv
+Atiks_informe_*.csv
+
+# Sistema operativo y editores / OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
